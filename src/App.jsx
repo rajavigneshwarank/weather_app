@@ -2,7 +2,7 @@ import React from 'react'
 import Weather from './components/Weather'
 
 const App = () => {
-  return (
+ return (
     <div className='app'>
       <Weather/>      
     </div>

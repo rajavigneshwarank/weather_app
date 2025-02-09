@@ -1,3 +1,12 @@
+body {
+    background-image: url('./weather_app_bg_image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+  }
+
 .weather{
     place-self: center;
     padding: 40px;
@@ -64,4 +73,111 @@
 .weather-data .col img{
     width: 26px;
     margin-top: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .weather {
+        padding: 20px;
+    }
+
+    .search-bar {
+        gap: 8px;
+    }
+
+    .search-bar input {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .search-bar img {
+        width: 40px;
+        padding: 12px;
+    }
+
+    .weather-icon {
+        width: 120px;
+        margin: 20px 0;
+    }
+
+    .temperature {
+        font-size: 60px;
+    }
+
+    .location {
+        font-size: 30px;
+    }
+
+    .weather-data {
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .weather-data .col {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .weather-data .col img {
+        width: 20px;
+        margin-top: 5px;
+    }
+    body {
+        background-size: cover; /* Ensure the background covers the screen on smaller devices */
+        background-position: center center; /* Maintain center alignment */
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .weather {
+        padding: 15px;
+    }
+
+    .search-bar {
+        gap: 6px;
+    }
+
+    .search-bar input {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .search-bar img {
+        width: 35px;
+        padding: 10px;
+    }
+
+    .weather-icon {
+        width: 100px;
+        margin: 15px 0;
+    }
+
+    .temperature {
+        font-size: 50px;
+    }
+
+    .location {
+        font-size: 25px;
+    }
+
+    .weather-data {
+        margin-top: 20px;
+    }
+
+    .weather-data .col {
+        font-size: 18px;
+    }
+
+    .weather-data .col img {
+        width: 18px;
+        margin-top: 5px;
+    }
+    body {
+        background-size: cover; /* Ensure the background covers the screen on small devices */
+        background-position: center center; /* Keep the background centered */
+    }
 }

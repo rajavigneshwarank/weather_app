@@ -12,5 +12,17 @@
   display:grid;
   /* background:#e2d4ff; */
   /* background: #f4f1e6 ; */
-  background: #d4f1f7;
+  /* background: #d4f1f7; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Make sure it covers the entire viewport */
+  background-image: url('/bg_image.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Ensures it doesn't repeat */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
