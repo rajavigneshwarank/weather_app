@@ -1,8 +1,8 @@
-# Weather App
+# Weather App..
 
 A weather application built with React that fetches real-time weather data using a weather API. Users can search for weather information of various locations and view current weather conditions, including temperature, humidity, wind speed, and more.
 
-## Features
+## Features..
 
 - Real-time weather data fetching using a weather API.
 - Search for weather by city name.
@@ -10,14 +10,14 @@ A weather application built with React that fetches real-time weather data using
 - Responsive design for mobile and desktop views.
 - Error handling for invalid city names.
 
-## Technologies Used
+## Technologies Used..
 
 - **React**: JavaScript library for building the user interface.
 - **Axios**: Promise-based HTTP client to fetch weather data from the API.
 - **Weather API**: A third-party API to retrieve weather data for different cities.
 - **CSS**: Styling the app's layout and design.
   
-## Installation
+## Installation..
 
 ### 1. Clone the repository
 
